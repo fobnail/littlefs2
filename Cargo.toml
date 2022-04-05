@@ -22,7 +22,8 @@ default-features = false
 version = "0.2"
 
 [dependencies.littlefs2-sys]
-version = "0.1.6"
+git = "https://github.com/fobnail/littlefs2-sys/"
+branch = "update_to_v2.4.2"
 
 [dependencies.serde]
 version = "1"
